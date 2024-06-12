@@ -1,14 +1,7 @@
-﻿USE [SCCIS]
-GO
-/****** Object:  UserDefinedFunction [jcal].[DayNumber]    Script Date: 10/12/2022 10:30:46 AM ******/
-SET ANSI_NULLS ON
-GO
-SET QUOTED_IDENTIFIER ON
-GO
 -- =============================================
 -- Author:		Behdad Dalvandi
--- Create date: 1401/07/18
--- Description:	Return the number of the weekday based on the Jalali date
+-- Creation Date: October 2022
+-- Description:	This function returns the number of the weekday based on the Jalali date.
 -- =============================================
 ALTER FUNCTION [jcal].[DayNumber]
 (
