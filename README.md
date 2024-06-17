@@ -6,7 +6,7 @@ The provided SQL file includes a collection of functions designed to manipulate 
 
 This repository contains a collection of SQL functions designed to manipulate and validate Jalali date strings. These functions are implemented for use in SQL Server and provide a comprehensive toolkit for handling various operations related to the Jalali calendar system.
 
-## Function List
+## Some Functions
 
 ### _ReversDate
 Reverses the order of date parts in a Jalali date string using a loop to separate and rearrange the parts based on the date part separator. The final result is returned as a string in the format YYYY/MM/DD.
